@@ -1,16 +1,14 @@
 Pinyin
 =========
-
-To get chinese pinyin from chinese.
-
-It's based on mootools.
-
+把中文转换成拼音
 How to use
 ----------
 
 	#JS
-	var pinyin = new Pinyin();
-	alert(pinyin.getFullChars('你好中国'));
+	 1）将汉字翻译为拼音，其中每一个字的首字母大写；
+	 pinyin.getFullChars(this.value);
+	 2）将每一个字的拼音的首字母提取出来，是大写的形式：
+	 pinyin.getCamelChars(this.value);
 
 Options
 -------
