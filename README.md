@@ -1,6 +1,6 @@
 Pinyin
 =========
-	把中文转换成拼音的JS，不依赖其他JS文件，可直接使用
+把中文转换成拼音的JS，不依赖其他JS文件，可直接使用
 How to use
 ----------
 
@@ -12,7 +12,7 @@ How to use
 Options
 -------
 
-	### Version 0.1
+### Version 0.1
 
 License
 -------
