@@ -4,11 +4,9 @@ Pinyin
 How to use
 ----------
 
-	 1）将汉字翻译为拼音，其中每一个字的首字母大写；
-	 #JS
+	 1）将汉字翻译为拼音，其中每一个字的首字母大写：	
 	 pinyin.getFullChars(this.value);
 	 2）将每一个字的拼音的首字母提取出来，是大写的形式：
-	 #JS
 	 pinyin.getCamelChars(this.value);
 
 Options
